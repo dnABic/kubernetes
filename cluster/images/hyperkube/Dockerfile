@@ -60,7 +60,7 @@ COPY setup-files.sh make-ca-cert.sh copy-addons.sh /
 # easy-rsa package required by make-ca-cert
 ADD https://storage.googleapis.com/kubernetes-release/easy-rsa/easy-rsa.tar.gz /root/kube/
 
-# Copy the the cni-bin folder into /opt/cni/bin
+# Copy the cni-bin folder into /opt/cni/bin
 COPY cni-bin/bin /opt/cni/bin
 
 # Copy overlay configuration to default directory

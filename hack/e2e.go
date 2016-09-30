@@ -46,7 +46,7 @@ var (
 	skewTests            = flag.Bool("skew", false, "If true, run tests in another version at ../kubernetes/hack/e2e.go")
 	testArgs             = flag.String("test_args", "", "Space-separated list of arguments to pass to Ginkgo test runner.")
 	test                 = flag.Bool("test", false, "Run Ginkgo tests.")
-	up                   = flag.Bool("up", false, "If true, start the the e2e cluster. If cluster is already up, recreate it.")
+	up                   = flag.Bool("up", false, "If true, start the e2e cluster. If cluster is already up, recreate it.")
 	upgradeArgs          = flag.String("upgrade_args", "", "If set, run upgrade tests before other tests")
 	verbose              = flag.Bool("v", false, "If true, print all command output.")
 
